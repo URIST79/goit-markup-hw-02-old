@@ -1,9 +1,12 @@
-:root{--background-color: #FFFFFF}
+:root{--background-color: #FFFFFF;
+  --section-title-color: #2e2f42;
+}
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: #434455;  
-  letter-spacing: 0.02em
+  color: #434455; 
+  background-color: #FFFFFF;  
+  letter-spacing: 0.02em;
   }
 
 .link {text-decoration: none;}
@@ -15,7 +18,7 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #4d5ae5
+color: #4d5ae5;
 }
 
 .studio {
@@ -31,15 +34,29 @@ color: #F4F4FD;
   color: #2E2F42;
   letter-spacing: 0.02em
 }
-.nav a:active  {
+.nav a:active {
   color: #404BBF;
 }
-
+.nav a:hover {
+  color: #404BBF;
+}
+.nav a:focus {
+  color: #404BBF;
+}
+.adress {
+  font-style: normal;
+}
 .adress a {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-   color: #434455;
+  color: #434455;
+}
+.adress:hover {
+  color: #404bbf  
+}
+.adress:focus {
+  color: #404bbf  
 }
 
 .mail-number{
@@ -53,24 +70,38 @@ color: #404BBF;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
-   color: #FFFFFF;
+  color: #FFFFFF;
   background: #2e2f42;
 }
+.section-title{
+  color: var(--section-title-color);
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.02em
+}
+
 .header{
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
 .button-hero {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
   color: #ffffff;
   background: #4D5AE5;
 }
 
-.button-hero:hover{
+.button-hero:hover {
+  background: #404BBF;  
+}
+.button-hero:focus {
   background: #404BBF;  
 }
 .about{
@@ -88,12 +119,10 @@ color: #404BBF;
 }
 
 .our-team{
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-transform: capitalize;
-  background-color: #F4F4FD
-  color: #2E2F42;  
+  background-color: #F4F4FD;   
+}
+.team-foto {
+  background-color: #FFFFFF
 }
 .name{
   font-weight: 500;
@@ -101,7 +130,7 @@ color: #404BBF;
   line-height: 1.2;
   color: #2E2F42;
   letter-spacing: 0.02em; 
-  background-color: #FFFFFF
+  background-color: #FFFFFF;
 }
 
 .work{
