@@ -1,18 +1,15 @@
+:root{--background-color: #FFFFFF}
+
 body {
-  font-family: 'Roboto', 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: #434455;  
   letter-spacing: 0.02em
   }
-ul,
-ol {
-  list-style: none;
-}
-a {text-decoration: none;}
-.header {
-  background-color: #ffffff;
-}
 
+.link {text-decoration: none;}
+.list {list-style: none;}
 .logo {
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
@@ -31,9 +28,10 @@ color: #F4F4FD;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-    color: #2E2F42;
+  color: #2E2F42;
+  letter-spacing: 0.02em
 }
-.nav:active a {
+.nav a:active  {
   color: #404BBF;
 }
 
@@ -58,13 +56,15 @@ color: #404BBF;
    color: #FFFFFF;
   background: #2e2f42;
 }
-
+.header{
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
 .button-hero {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
   background: #4D5AE5;
@@ -87,41 +87,46 @@ color: #404BBF;
    color: #434455; 
 }
 
-.h2{
+.our-team{
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-   text-transform: capitalize;
-   color: #2E2F42;  
+  text-transform: capitalize;
+  background-color: #F4F4FD
+  color: #2E2F42;  
 }
 .name{
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: #2E2F42; 
+  color: #2E2F42;
+  letter-spacing: 0.02em; 
+  background-color: #FFFFFF
 }
 
 .work{
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-    color: #434455;  
+  color: #434455;  
 }
 .footer{
 background-color: #2E2F42;
 }
-.button-portfolio{
+.button-portfolio{ 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.04em;
   color: #4D5AE5; 
-  background: #E7E9FC; 
+  background-color: #F4F4FD; 
 }
 .button-portfolio:hover{
-  color: WHITE; 
-  background: #404BBF;  
+  color:#FFFFFF; 
+  background: #404BBF;
+  cursor: pointer;  
+}
+.footer-p{
+  line-height: 1.5;  
+color: #F4F4FD;  
 }
