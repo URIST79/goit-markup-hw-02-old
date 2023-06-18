@@ -1,5 +1,7 @@
 :root{--background-color: #FFFFFF;
   --section-title-color: #2e2f42;
+  --button-portfolio-color: #4d5ae5;
+  --button-background-color: #F4F4FD;
 }
 
 body {
@@ -149,19 +151,26 @@ color: #404BBF;
 .footer{
 background-color: #2E2F42;
 }
-.button-portfolio{ 
+.button-portfolio {
+  font-family: "Roboto", sans-serif; 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4D5AE5; 
-  background-color: #F4F4FD; 
+  color: var(--button-portfolio-color); 
+  background-color: var(--button-background-color); 
+  cursor: pointer;
 }
 .button-portfolio:hover{
   color:#FFFFFF; 
-  background: #404BBF;
+  background-color: #404BBF;
   cursor: pointer;  
 }
+.button-portfolio:focus{
+  color: #FFFFFF;
+  background-color: #404BBF;  
+}
+
 .footer-p{
   line-height: 1.5;  
 color: #F4F4FD;  
